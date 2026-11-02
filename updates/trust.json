@@ -1,0 +1,7 @@
+{
+  "repository": "SmalBox/LingoLeapOfficial",
+  "feedUrl": "https://raw.githubusercontent.com/SmalBox/LingoLeapOfficial/main/updates/stable.json",
+  "siteUrl": "https://smalbox.github.io/LingoLeapOfficial/",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAQteKSKMvJVnXvFkD98AG7++DwQnhOlZFjAm0BSdEIOo=\n-----END PUBLIC KEY-----\n",
+  "keyFingerprint": "1cca9bf7f0bc536eaca6c9156be8e074bce9dec6fe65a138ae052a7b6591f79a"
+}
