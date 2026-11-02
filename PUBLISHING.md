@@ -7,7 +7,7 @@ This public repository contains the website, signed update feeds and distributio
 - Feed: `https://raw.githubusercontent.com/SmalBox/LingoLeapOfficial/main/updates/stable.json`
 - Website: `https://smalbox.github.io/LingoLeapOfficial/`
 - Public key: `updates/trust.json`; fingerprint `1cca9bf7f0bc536eaca6c9156be8e074bce9dec6fe65a138ae052a7b6591f79a`.
-- Desktop clients pin this key in the application and verify Ed25519 signatures, expiry, sequence, platform, version, size and SHA-256. The website verifies metadata for display; its key is served by the website and is not an independent trust root.
+- Desktop clients pin this key in the application and verify Ed25519 signatures, expiry, sequence, platform, version, size and SHA-256. The website verifies metadata for display when the browser supports Ed25519; older browsers display a clear unverified-metadata notice. Its key is served by the website and is not an independent trust root.
 - Release asset redirects are restricted to GitHub's asset CDN. Clients require no GitHub account or token.
 
 ## Publishing order

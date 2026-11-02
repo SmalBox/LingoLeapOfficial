@@ -1,0 +1,54 @@
+name: Official website and signed update feed
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      renew:
+        description: Renew the signed feed validity without changing releases
+        type: boolean
+        default: true
+  schedule:
+    - cron: '17 1 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: official-distribution
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Renew expiring feed
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.renew)
+        env:
+          LINGOLEAP_UPDATE_SIGNING_KEY: ${{ secrets.LINGOLEAP_UPDATE_SIGNING_KEY }}
+        run: |
+          node scripts/renew-feed.mjs
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add updates/stable.json
+          git commit -m 'chore: renew signed update feed'
+          git push
+      - uses: actions/configure-pages@v5
+      - name: Stage only public website assets
+        run: |
+          mkdir _site
+          cp index.html .nojekyll _site/
+          cp -R assets updates _site/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - uses: actions/deploy-pages@v4
+        id: deployment
