@@ -29,3 +29,9 @@ Monitor Actions failures. If the feed expires, clients fail closed and retain th
 ## Installation boundary
 
 Current program packages are unsigned Alpha ZIPs, requiring manual replacement after quitting the previous application. A verified download does not install or restart the application. Content updates require explicit confirmation and support rollback. Platforms without actual builds do not get placeholder download entries.
+
+## CNB distribution mirror
+
+The domestic repository is `https://cnb.cool/DipSugar/LingoLeapOfficial`. The GitHub workflow renews a separate `updates/cnb-stable.json` signed envelope whose asset URLs point to CNB. It uses the same persistent signing key and the same actual package bytes and content revisions. Never edit URLs inside an already signed payload.
+
+The CNB repository periodically fetches and verifies this public envelope using its pinned public key. Its native pipeline imports the matching immutable GitHub Release assets, verifies their sizes and SHA-256 values, publishes the CNB Release, then pushes `updates/stable.json` using its short-lived token. The GitHub Release includes the original `cnb-stable.json` snapshot as an additional asset so daily feed renewal never mutates release attachments. No private signing key or long-lived GitHub token is stored on CNB. Upload actual assets to both platforms before advancing either live feed. Monitor both renewal and synchronization jobs.

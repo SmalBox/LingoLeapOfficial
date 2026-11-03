@@ -13,3 +13,5 @@
 当前为测试版：macOS 程序 ZIP 暂未签名、公证，需退出旧版本后手动替换；内容资源可在应用中确认更新并回退。仅提供已实际构建的平台，不将其他平台标为已验证。
 
 维护说明见 [PUBLISHING.md](PUBLISHING.md)。本仓库不保存 API Key、访问令牌、签名私钥或用户资料。
+
+国内发行与更新：<https://cnb.cool/DipSugar/LingoLeapOfficial>。v0.14.0 起设置中可明确选择国内 CNB 或 GitHub。
