@@ -1,45 +1,43 @@
 # LingoLeap 语跃
 
-> 查得清，留得住，下次用得上。
+> Understand it now. Keep it. Use it again.
 
-**A desktop Korean companion for Chinese speakers.** Look up words, understand real sentences, express yourself, and turn useful answers into a personal learning library.
+**A desktop Korean companion for Chinese speakers.** Look up words, understand real sentences, express yourself naturally, and build a personal learning library as you go.
 
-**中文母语者的桌面韩语助手。** 从一句歌词、一段台词、一页教材，到日常交流与工作表达，让查词、理解、追问和学习在电脑上连成一个顺手的动作。
+**[Download for macOS & Windows](https://github.com/SmalBox/LingoLeapOfficial/releases)** · [Website](https://smalbox.github.io/LingoLeapOfficial/) · [Share feedback](https://github.com/SmalBox/LingoLeapOfficial/issues)
 
-**[Download / 下载语跃](https://github.com/SmalBox/LingoLeapOfficial/releases)** · [官网](https://smalbox.github.io/LingoLeapOfficial/) · [使用反馈](https://github.com/SmalBox/LingoLeapOfficial/issues)
+中国大陆用户可使用 **[CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
 
-中国大陆用户也可使用 **[CNB 加速下载渠道](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)** 获取程序包和版本更新。
+## Korean, always within reach
 
-## 把韩语学习放在手边
+- **Look up without breaking your flow.** Open a compact window with a shortcut, type or paste a word or sentence, and start with your offline dictionary.
+- **Understand meaning and usage.** Read Korean, Chinese and English explanations, word forms, grammar and examples. Select a phrase to ask a follow-up in context.
+- **Find the right expression.** Turn Chinese or English into Korean, with choices for your audience, communication channel and level of formality.
+- **Read as answers arrive.** Translations and explanations appear progressively while the rest of an answer is being prepared.
+- **Build a library that feels like yours.** Keep useful answers, edit them, add aliases and revisit them without requesting the same answer again.
+- **Keep learning after the lookup.** Organize vocabulary, grammar, expressions and common mistakes; practise recognition, listening, writing, dialogue and sentences.
 
-- **随手查，不打断。** 快捷键呼出轻量窗口，输入或粘贴想查的词句；先看词典，再按需深入解析。
-- **读懂意思，也读懂用法。** 查看韩中英释义、词形、语法和例句；遇到不明白的内容，继续带着语境追问。
-- **想表达时，有人搭把手。** 将中文或英文转换为韩语，比较不同说法，理解语气与适用场景。
-- **好内容越用越多。** 有用的 AI 回答自动积累为个人资料，可修订、标记和复用，让查过的内容下次更容易找到。
-- **查完，还能学会。** 将词汇、语法、表达和易错点存入学习库，配合听辨、写出、对话和造句练习继续巩固。
+## For the things you love and the things you need
 
-## 为这些时刻准备
+Lyrics, subtitles, books, lessons, messages and work conversations: start with the sentence in front of you, understand it, and keep what matters.
 
-追歌词和台词时想多懂一点，阅读教材或文学作品时遇到陌生表达，写消息或工作沟通时想说得自然一些——把那句话粘贴进来，从理解开始，留下适合自己的学习资料。
+The built-in dictionary includes **11,902 sourced entries and 11,000 distinct headwords**. Basic lookups and personal organization work offline, without registration. Local profiles keep different people's materials separate, with backup and restore.
 
-## 离线可用，按自己的方式学习
+For deeper assistance, connect your own AI service. AI features require a working provider and may incur provider charges; offline dictionary use does not depend on AI.
 
-内置 **11,902 个有出处的词典条目、11,000 个独立词形**。基础查词与本地资料整理无需联网、无需注册；不同本地账号分别管理资料，支持备份与恢复。
+## Get started
 
-需要更深入的智能解析时，可自行配置 AI 服务。AI 查询需要对应服务可用，并可能产生服务费用；离线词典不依赖 AI。词典来源与许可随应用和内容资源提供。
+1. Download the **macOS Apple Silicon** or **Windows x64** ZIP from [Releases](https://github.com/SmalBox/LingoLeapOfficial/releases).
+2. Extract it and open LingoLeap. The short welcome guide can take you straight to the offline dictionary or AI settings.
+3. Use **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows to open quick lookup. Shortcuts are configurable.
+4. Keep useful results in your personal materials and learning library.
 
-## 开始使用
+Check for later versions in **Settings → Software updates**. After downloading an application update, fully quit the old app and replace it with the new one. Dictionary content can be updated inside the app.
 
-1. 从 [GitHub Releases](https://github.com/SmalBox/LingoLeapOfficial/releases) 下载适合自己电脑的程序包。当前提供 **macOS Apple Silicon 测试版**。
-2. 解压后打开语跃，使用 `⌘ + Shift + Space` 呼出快捷查询，输入或粘贴词句。
-3. 在设置中配置 AI 服务，开启深入解析；将有用的内容留在个人资料与学习库。
+## Make LingoLeap better with us
 
-后续可在「设置 → 软件更新」检查新版本，词典内容也可单独更新。替换程序前，请先完全退出旧版本。
+Tell us about confusing sentences, unnatural expressions and interactions that could feel smoother through [Issues](https://github.com/SmalBox/LingoLeapOfficial/issues).
 
-## 一起让语跃更好用
-
-欢迎通过 [Issues](https://github.com/SmalBox/LingoLeapOfficial/issues) 分享使用体验：难懂的句子、不自然的表达、希望更顺手的操作，都是下一次改进的起点。
-
-开发者组织：**蘸糖（DipSugar）**
+Developer: **蘸糖 DipSugar**
 
 Powered by 蘸糖科技 SmalBox

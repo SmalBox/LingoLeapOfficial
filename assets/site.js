@@ -67,14 +67,14 @@ async function loadJson(path) {
   if (text.length > 1000000) throw new Error("Metadata exceeds limit");
   return JSON.parse(text);
 }
-async function verifiedApp(source, key) {
+async function verifiedApp(source, key, platform = "darwin", arch = "arm64") {
   const signed = await loadJson(source.feed);
   if (typeof signed.payload !== "string" || signed.payload.length > 700000 || !/^[A-Za-z0-9+/]{86}==$/.test(signed.signature)) throw new Error("Invalid envelope");
   const payload = base64Bytes(signed.payload);
   if (!await crypto.subtle.verify("Ed25519", key, base64Bytes(signed.signature), payload)) throw new Error("Invalid metadata");
   const feed = JSON.parse(new TextDecoder().decode(payload));
   if (feed.format !== "lingoleap-updates" || feed.formatVersion !== 1 || feed.channel !== "stable" || !Number.isSafeInteger(feed.sequence) || !Number.isFinite(Date.parse(feed.expiresAt)) || Date.parse(feed.expiresAt) <= Date.now() || !Array.isArray(feed.releases) || feed.releases.length > 30) throw new Error("Unavailable feed");
-  const app = feed.releases.find((release) => release.kind === "app" && release.platform === "darwin" && release.arch === "arm64");
+  const app = feed.releases.find((release) => release.kind === "app" && release.platform === platform && release.arch === arch);
   if (!app || typeof app.version !== "string" || !/^\d+\.\d+\.\d+(?:-[a-zA-Z0-9.-]+)?$/.test(app.version) || !/^[a-f0-9]{64}$/.test(app.sha256) || !Number.isSafeInteger(app.bytes) || app.bytes <= 0 || app.bytes > 1073741824) throw new Error("No compatible app");
   const url = new URL(app.path);
   const suffix = url.pathname.slice(source.prefix.length);
@@ -97,6 +97,14 @@ async function updateDownloads() {
     status.textContent = `v${app.version} · ${(app.bytes / 1048576).toFixed(1)} MB · ZIP 程序包`;
     status.dataset.state = "ready";
     if (mirror.status === "fulfilled" && mirror.value.version === app.version && mirror.value.sha256 === app.sha256 && mirror.value.bytes === app.bytes) document.querySelector("#app-mirror").href = mirror.value.path;
+    const [windows, windowsMirror] = await Promise.allSettled([verifiedApp(sources.github,key,"win32","x64"),verifiedApp(sources.cnb,key,"win32","x64")]);
+    if(windows.status === "fulfilled") {
+      document.querySelector("#windows-download").href=windows.value.path;
+      document.querySelector("#windows-download").textContent="下载 Windows 测试版";
+      document.querySelector("#windows-status").textContent=`v${windows.value.version} · ${(windows.value.bytes/1048576).toFixed(1)} MB · ZIP 程序包`;
+      if(windowsMirror.status==="fulfilled" && windowsMirror.value.sha256===windows.value.sha256 && windowsMirror.value.version===windows.value.version)document.querySelector("#windows-mirror").href=windowsMirror.value.path;
+    }
+
   } catch (error) {
     console.warn("Release metadata unavailable:", error instanceof Error ? error.message : "Unknown error");
     status.textContent = "最新版本请以下载页为准。";
