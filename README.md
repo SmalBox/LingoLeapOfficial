@@ -6,7 +6,7 @@
 
 **[Download for macOS & Windows](https://github.com/SmalBox/LingoLeapOfficial/releases)** · [Website](https://smalbox.github.io/LingoLeapOfficial/) · [Share feedback](https://github.com/SmalBox/LingoLeapOfficial/issues)
 
-中国大陆用户可使用 **[CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
+也可使用 **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
 
 ## Korean, always within reach
 
@@ -32,7 +32,7 @@ For deeper assistance, connect your own AI service. AI features require a workin
 3. Use **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows to open quick lookup. Shortcuts are configurable.
 4. Keep useful results in your personal materials and learning library.
 
-Check for later versions in **Settings → Software updates**. After downloading an application update, fully quit the old app and replace it with the new one. Dictionary content can be updated inside the app.
+Check for later versions in **Settings → Software updates**. From v0.18.0, download an update, then choose **Restart and install** to replace the app automatically. Earlier versions need a one-time installation of the new version. Dictionary content can be updated inside the app.
 
 ## Make LingoLeap better with us
 
