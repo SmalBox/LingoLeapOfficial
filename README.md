@@ -10,13 +10,12 @@ Choose Simplified Chinese, Traditional Chinese, English or Korean in **Settings 
 
 也可使用 **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
 
-## What’s new in v0.24.2
+## What’s new in v0.24.3
 
-- **Yuezai helps you take the next step.** Check filters behind an empty dictionary search, open the exact record you saved, or find relevant AI settings after a failed query. Your original text stays in place.
-- **Helpful without constant interruptions.** Actionable suggestions wait for a pause in typing, avoid repeating introductions and can be dismissed per local profile. Help itself does not make extra AI requests.
-- **A calmer workspace.** Four interface languages, explanations on demand, clearer errors and refined layouts keep lookup and learning readable.
-- **A little more life.** Garden and starry scenes, responsive Yuezai animations and subtle click feedback, with motion controls and reduced-motion support.
-- **Ready when you are.** Choose tray standby or the main window at login in **Settings → Startup**. Updates download with progress, then install when you choose **Restart and install**.
+- **Smoother updates on Windows.** Checks and downloads follow your system proxy by default, with improved Tencent CNB download compatibility.
+- **A quick connection check.** In **Settings → Software updates**, choose **Check and refresh connection** to refresh the app connection and check again. This action does not download an update.
+- **Clearer when something goes wrong.** See proxy, DNS and timeout messages, expand connection details, or choose an environment proxy or direct connection when needed.
+- **Your familiar companion, ready to help.** Yuezai assistance, four interface languages, offline lookup and your personal learning library are all included.
 
 This is an Alpha test release for **macOS Apple Silicon and Windows x64**. Basic dictionary use works offline; AI features use your configured provider. Codex account bridging remains for personal local testing.
 
@@ -44,7 +43,7 @@ For deeper assistance, connect your own AI service. AI features require a workin
 3. Use **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows to open quick lookup. Shortcuts are configurable.
 4. Keep useful results in your personal materials and learning library.
 
-Check for later versions in **Settings → Software updates**. From v0.18.0, download an update, then choose **Restart and install** to replace the app automatically. Earlier versions need a one-time installation of the new version. Dictionary content can be updated inside the app.
+Check for later versions in **Settings → Software updates**. From v0.18.0, download an update, then choose **Restart and install** to replace the app automatically. Earlier versions need a one-time installation of the new version. Dictionary content can be updated inside the app. If an older Windows version cannot connect through a proxy, download the latest ZIP, fully quit the old app and replace the program while keeping your user-data directory.
 
 ## Make LingoLeap better with us
 
