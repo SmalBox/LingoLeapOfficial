@@ -102,7 +102,7 @@ async function updateDownloads() {
       document.querySelector("#windows-download").href=windows.value.path;
       document.querySelector("#windows-download").textContent="下载 Windows 测试版";
       document.querySelector("#windows-status").textContent=`v${windows.value.version} · ${(windows.value.bytes/1048576).toFixed(1)} MB · ZIP 程序包`;
-      if(windowsMirror.status==="fulfilled" && windowsMirror.value.sha256===windows.value.sha256 && windowsMirror.value.version===windows.value.version)document.querySelector("#windows-mirror").href=windowsMirror.value.path;
+      if(windowsMirror.status==="fulfilled" && windowsMirror.value.sha256===windows.value.sha256 && windowsMirror.value.version===windows.value.version && windowsMirror.value.bytes===windows.value.bytes)document.querySelector("#windows-mirror").href=windowsMirror.value.path;
     }
 
   } catch (error) {

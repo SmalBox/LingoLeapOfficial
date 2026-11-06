@@ -1,5 +1,7 @@
 # LingoLeap 语跃
 
+Choose Simplified Chinese, Traditional Chinese, English or Korean in **Settings → Display language**. The first-run guide begins with this choice. Queries and learning materials keep their original languages.
+
 > Understand it now. Keep it. Use it again.
 
 **A desktop Korean companion for Chinese speakers.** Look up words, understand real sentences, express yourself naturally, and build a personal learning library as you go.
@@ -7,6 +9,16 @@
 **[Download for macOS & Windows](https://github.com/SmalBox/LingoLeapOfficial/releases)** · [Website](https://smalbox.github.io/LingoLeapOfficial/) · [Share feedback](https://github.com/SmalBox/LingoLeapOfficial/issues)
 
 也可使用 **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
+
+## What’s new in v0.24.2
+
+- **Yuezai helps you take the next step.** Check filters behind an empty dictionary search, open the exact record you saved, or find relevant AI settings after a failed query. Your original text stays in place.
+- **Helpful without constant interruptions.** Actionable suggestions wait for a pause in typing, avoid repeating introductions and can be dismissed per local profile. Help itself does not make extra AI requests.
+- **A calmer workspace.** Four interface languages, explanations on demand, clearer errors and refined layouts keep lookup and learning readable.
+- **A little more life.** Garden and starry scenes, responsive Yuezai animations and subtle click feedback, with motion controls and reduced-motion support.
+- **Ready when you are.** Choose tray standby or the main window at login in **Settings → Startup**. Updates download with progress, then install when you choose **Restart and install**.
+
+This is an Alpha test release for **macOS Apple Silicon and Windows x64**. Basic dictionary use works offline; AI features use your configured provider. Codex account bridging remains for personal local testing.
 
 ## Korean, always within reach
 

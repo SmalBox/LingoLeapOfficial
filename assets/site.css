@@ -481,3 +481,18 @@ h2 { font-size: clamp(32px, 3.1vw, 43px); line-height: 1.45; font-weight: 650; l
 .windows-download h3 { margin: 0 0 8px; }
 .windows-download > p { font-size: 13px; line-height: 1.8; color: #68736e; }
 .windows-download .button { width: 100%; justify-content: center; }
+
+.companion-section { padding-bottom: 0; }
+.companion-heading { display: flex; align-items: center; gap: 22px; }
+.companion-heading img { flex-shrink: 0; }
+.companion-heading h2 { font-size: clamp(29px, 3.4vw, 43px); }
+.companion-intro { color: var(--muted); margin-top: 22px; font-size: 14px; line-height: 1.9; }
+.companion-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 32px; }
+.companion-cards article { padding: 25px; border: 1px solid #e1e7d9; border-radius: 18px; background: #fffefb; }
+.companion-cards h3 { font-size: 17px; margin-block: 18px 12px; line-height: 1.6; }
+.companion-cards p { color: var(--muted); font-size: 13px; line-height: 1.9; }
+.companion-action { display: flex; align-items: center; gap: 8px; margin-top: 22px; color: #567249; font-size: 12px; }
+.companion-action .icon { width: 16px; height: 16px; }
+.companion-footnote { font-size: 11px; color: var(--muted); line-height: 1.8; margin-top: 18px; }
+@media (max-width: 800px) { .companion-cards { grid-template-columns: 1fr; } .companion-cards article { padding: 22px; } }
+@media (max-width: 580px) { .companion-heading { align-items: flex-start; gap: 12px; } .companion-heading img { width: 45px; height: 45px; } .companion-heading h2 { font-size: 27px; } }
