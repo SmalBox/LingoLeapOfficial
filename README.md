@@ -10,14 +10,12 @@ Choose Simplified Chinese, Traditional Chinese, English or Korean in **Settings 
 
 也可使用 **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
 
-## What’s new in v0.24.3
+## What’s new in v0.25.0
 
-- **Smoother updates on Windows.** Checks and downloads follow your system proxy by default, with improved Tencent CNB download compatibility.
-- **A quick connection check.** In **Settings → Software updates**, choose **Check and refresh connection** to refresh the app connection and check again. This action does not download an update.
-- **Clearer when something goes wrong.** See proxy, DNS and timeout messages, expand connection details, or choose an environment proxy or direct connection when needed.
-- **Your familiar companion, ready to help.** Yuezai assistance, four interface languages, offline lookup and your personal learning library are all included.
-
-This is an Alpha test release for **macOS Apple Silicon and Windows x64**. Basic dictionary use works offline; AI features use your configured provider. Codex account bridging remains for personal local testing.
+- **Update only what changed.** App updates reuse compatible offline dictionaries, with no repeat downloads of identical content.
+- **Your choice of timing.** Download recommended updates, manage app and dictionary downloads separately, or pin a dictionary version. Restart and install when ready.
+- **A smoother desktop companion.** Windows startup registration is fixed; single-click the tray for the menu or double-click to open the main window on Mac and Windows.
+- **Offline data stays with you.** Dictionary files, profiles and learning materials survive app replacement. First-time users should choose the full ZIP without the `program` suffix.
 
 ## Korean, always within reach
 
