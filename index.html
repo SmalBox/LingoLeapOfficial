@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fffdf8">
-  <meta name="description" content="语跃 LingoLeap，中文母语者的桌面韩语助手。从查词、理解到表达和学习积累，让每一次查词都有下文。内置离线词典，自选 AI，资料留在本机。">
+  <meta name="description" content="语跃 LingoLeap，中文母语者的桌面韩语助手。截图取词、桌面贴图与离线中英韩 OCR，接上查词、理解和学习积累。内置离线词典，自选 AI，资料留在本机。">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'">
   <meta property="og:type" content="website">
   <meta property="og:title" content="语跃 LingoLeap · 让每一次查词，都有下文">
-  <meta property="og:description" content="看懂一句韩语，留下自己的理解。中文母语者的桌面韩语助手。">
+  <meta property="og:description" content="从截图取词、桌面贴图到查词与学习积累。中文母语者的桌面韩语助手。">
   <meta property="og:url" content="https://smalbox.github.io/LingoLeapOfficial/">
   <meta property="og:image" content="https://smalbox.github.io/LingoLeapOfficial/assets/app-icon.png">
   <title>语跃 LingoLeap · 让每一次查词，都有下文</title>
   <link rel="icon" href="assets/logo.svg?v=20261106-motion-1" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/app-icon.png">
-  <link rel="stylesheet" href="assets/site.css?v=20261106-motion-1">
+  <link rel="stylesheet" href="assets/site.css?v=20261113-capture-1">
   <link rel="stylesheet" href="assets/motion.css?v=20261106-motion-1">
   <script src="assets/site.js?v=20261106-motion-1" defer></script>
   <script src="assets/motion.js?v=20261106-motion-1" defer></script>
@@ -95,9 +95,9 @@
       <div class="hero-copy">
         <p class="eyebrow"><span class="status-dot"></span> 给中文母语者的韩语桌面助手</p>
         <h1 id="hero-title">让每一次查词，<br>都<span class="pink-word">有下文<svg viewBox="0 0 300 20" aria-hidden="true"><path d="M4 14Q130-3 294 9"/></svg></span>。</h1>
-        <p class="hero-description">看懂一句韩语，留下自己的理解。<br>从查词、追问到表达和练习，<br class="desktop-break">把零散的好奇，变成慢慢积累的能力。</p>
+        <p class="hero-description">喜欢的句子，截下来，也留下来。<br>截图取词、桌面贴图，接上理解和练习，<br class="desktop-break">把零散的好奇，变成慢慢积累的能力。</p>
         <div class="hero-actions"><a class="button button-dark" href="#download"><svg class="icon"><use href="#i-download"/></svg> 下载桌面测试版</a><a class="text-link" href="#scenes">看看能做什么 <svg class="icon"><use href="#i-arrow"/></svg></a></div>
-        <p class="hero-meta">离线词典 · 无需注册 · 四语言界面 · 自选 AI 服务</p>
+        <p class="hero-meta">截图贴图 · 离线中英韩 OCR · 离线词典 · 自选 AI 服务</p>
         <div class="shortcut"><span>下一句韩语，随时查。</span><kbd>⌘</kbd><kbd>⇧</kbd><kbd>Space</kbd></div>
       </div>
 
@@ -139,9 +139,33 @@
     <section class="section container scenes" id="scenes" aria-labelledby="scenes-title">
       <div class="section-heading"><div><p class="eyebrow">不只在上课时，才学韩语</p><h2 id="scenes-title">喜欢的内容，<br>就是最好的开始。</h2></div><p>那些让你停下来的一句话，<br>都可以成为下一次进步的起点。</p></div>
       <div class="scene-grid">
-        <article class="scene scene-culture"><div class="scene-art record-art" aria-hidden="true"><div class="record"><i></i><span>한 순간</span></div><div class="lyric-slip"><small>喜欢的那一句</small><span lang="ko">기억하고 싶어요.</span><b>想记住此时此刻。</b></div><span class="art-star">✦</span></div><p class="scene-index">01 / 歌词 · 影视 · 文化</p><h3>喜欢，所以想再懂一点。</h3><p>把歌词或台词粘贴进来，理解词义、词尾和语气，让触动你的句子变得更清晰。</p></article>
-        <article class="scene scene-reading"><div class="scene-art paper-art" aria-hidden="true"><div class="paper"><span>오늘의 한국어</span><div class="paper-line"></div><p lang="ko">단어 하나에서<br><mark>넓어지는</mark> 세계.</p><div class="paper-line short"></div><div class="paper-line"></div></div><span class="paper-sticker"><img src="assets/reading.svg" width="50" height="50" alt=""></span></div><p class="scene-index">02 / 教材 · 阅读 · 日常</p><h3>卡住的地方，顺着读下去。</h3><p>先查基础词典，再按需深入解析。在语跃的结果里选词追问，保留前后语境继续理解。</p></article>
+        <article class="scene scene-culture"><div class="scene-art record-art" aria-hidden="true"><div class="record"><i></i><span>한 순간</span></div><div class="lyric-slip"><small>喜欢的那一句</small><span lang="ko">기억하고 싶어요.</span><b>想记住此时此刻。</b></div><span class="art-star">✦</span></div><p class="scene-index">01 / 歌词 · 影视 · 文化</p><h3>喜欢，所以想再懂一点。</h3><p>截取歌词或台词，离线识别后选词查询；需要时再用 AI 理解语气，让触动你的句子变得更清晰。</p></article>
+        <article class="scene scene-reading"><div class="scene-art paper-art" aria-hidden="true"><div class="paper"><span>오늘의 한국어</span><div class="paper-line"></div><p lang="ko">단어 하나에서<br><mark>넓어지는</mark> 세계.</p><div class="paper-line short"></div><div class="paper-line"></div></div><span class="paper-sticker"><img src="assets/reading.svg" width="50" height="50" alt=""></span></div><p class="scene-index">02 / 教材 · 阅读 · 日常</p><h3>卡住的地方，顺着读下去。</h3><p>把教材片段贴在桌面作参考，标注重点、提取文字，先查基础词典，再带着语境深入理解。</p></article>
         <article class="scene scene-work"><div class="scene-art chat-art" aria-hidden="true"><div class="chat-bubble chinese">麻烦确认一下这个文件。</div><div class="chat-bubble korean" lang="ko">확인 부탁드립니다.<span>工作沟通 · 郑重礼貌</span></div><span class="chat-caption"><svg class="icon"><use href="#i-check"/></svg> 找到更合适的说法</span></div><p class="scene-index">03 / 消息 · 邮件 · 工作</p><h3>不只说对，也想说得合适。</h3><p>从中文或英文出发，比较韩语的不同说法，理解敬语和使用场景，慢慢找到表达的分寸。</p></article>
+      </div>
+    </section>
+
+    <section class="section container capture-section" id="capture" aria-labelledby="capture-title">
+      <div class="capture-grid">
+        <figure class="capture-figure">
+          <div class="capture-stage" aria-hidden="true">
+            <div class="capture-sheet"><span class="capture-document-label">喜欢的片段 · 읽고 싶은 순간</span><p lang="ko">오늘의 작은 발견이<br>내일의 배움이 됩니다.</p><div class="capture-crop"><span class="capture-size">480 × 180</span><p lang="ko">기억하고 싶은 순간</p><span class="capture-mark">想记住的那个瞬间</span></div><div class="capture-tool-strip"><span>画笔</span><span>文字</span><span>马赛克</span><span>贴图</span><span class="capture-tool-active">识别文字</span></div></div>
+            <div class="capture-pin"><span class="capture-pin-label">✦ 贴在桌面，慢慢读</span><p lang="ko">기억하고 싶은 순간</p><span class="capture-pin-note">识别内容可修正 · 选词继续查</span></div>
+            <span class="capture-local"><svg class="icon"><use href="#i-lock"/></svg> 中 · 英 · 韩，离线识别</span>
+          </div>
+          <figcaption>截图与贴图功能示意 · 从画面提取文字，再接着学习</figcaption>
+        </figure>
+        <div class="capture-copy">
+          <p class="eyebrow">v0.31.1 · 把屏幕上的好内容接进来</p>
+          <h2 id="capture-title">看到的，截下来。<br>有用的，<span class="pink-text">留在手边。</span></h2>
+          <p class="capture-intro">歌词、字幕、教材和工作片段，不必再来回抄写。<br>从截图、识别到查询与保存，在原来的位置接着做。</p>
+          <div class="capture-benefits">
+            <article><span>01</span><div><h3>精准截取，顺手标注。</h3><p>Shift 框出正方形，也能输入宽高固定尺寸。画笔、箭头、形状、马赛克和可编辑文字就在选区旁，撤销、缩放与平移都顺手。</p></div></article>
+            <article><span>02</span><div><h3>桌面贴图，参考一直在。</h3><p>截图或剪贴板图片贴到桌面，移动、缩放、堆叠，再次标注。工具条移到图片外，透明度和紧凑布局少一点遮挡。</p></div></article>
+            <article><span>03</span><div><h3>离线识别，接上查询。</h3><p>内置中英韩 OCR，识别后可原地修正、复制与选词查询。句子交给你配置的 AI，值得留下的图片和来源收入个人资料。</p></div></article>
+          </div>
+          <a class="text-link" href="#download">下载截图与贴图测试版 <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
       </div>
     </section>
 
@@ -152,7 +176,7 @@
       <article><span class="step-number">03</span><div><h3>多用一次，才更靠近学会。</h3><p>把精选内容收入学习库，用标签、集合和笔记整理，再通过认识、听辨、写出、对话和造句练习巩固。</p><div class="practice-line"><span class="practice-word" lang="ko">기억하다</span><svg class="icon"><use href="#i-arrow"/></svg><span>认识它</span><span>听懂它</span><span class="practice-active">用出来</span></div></div></article></div>
     </div></section>
 
-    <section class="section container companion-section" id="yuezai" aria-labelledby="companion-title" data-release-version="0.25.0">
+    <section class="section container companion-section" id="yuezai" aria-labelledby="companion-title" data-release-version="0.31.1">
       <div class="companion-garden motion-scene" data-motion-view="off" aria-hidden="true" inert><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 160" class="garden-scene" aria-hidden="true">
   <g class="garden-sprout garden-sprout-one">
     <path d="M259 159Q251 112 274 61" fill="none" stroke="#9aaf8b" stroke-width="2" stroke-linecap="round"/>
@@ -185,25 +209,26 @@
   </g>
 </svg>
 </div>
-      <div class="companion-heading"><img src="assets/logo.svg?v=20261106-motion-1" width="72" height="72" alt="跃仔"><div><p class="eyebrow">v0.25.0 · 只更新需要的部分</p><h2 id="companion-title">需要的时候，<span class="pink-text">接着帮你。</span></h2></div></div>
+      <div class="companion-heading"><img src="assets/logo.svg?v=20261106-motion-1" width="72" height="72" alt="跃仔"><div><p class="eyebrow">v0.31.1 · 从屏幕到学习资料</p><h2 id="companion-title">需要的时候，<span class="pink-text">接着帮你。</span></h2></div></div>
       <p class="companion-intro">一条轻轻出现的建议，接上一个实际有用的动作。<br>输入停顿后再提示，可关闭，也不反复打扰。</p>
       <div class="companion-cards">
         <article><span class="mini-label">查不到词</span><h3>看看是不是筛选挡住了。</h3><p>对照检查当前筛选，找到匹配证据后再调整。关键词保留，条件也能恢复。</p><span class="companion-action">检查筛选影响 <svg class="icon"><use href="#i-arrow"/></svg></span></article>
         <article><span class="mini-label">刚刚保存</span><h3>直接找到，刚才那一条。</h3><p>打开对应学习记录，或接着记一个易错点。不用再去列表里翻找。</p><span class="companion-action">打开这条学习记录 <svg class="icon"><use href="#i-arrow"/></svg></span></article>
         <article><span class="mini-label">AI 查询失败</span><h3>知道下一步该看哪里。</h3><p>定位相关服务的模型、凭据或连接设置。原句留在原处，由你决定是否重试。</p><span class="companion-action">定位相关服务设置 <svg class="icon"><use href="#i-arrow"/></svg></span></article>
       </div>
-      <p class="companion-footnote">本次更新让程序与词库分别更新，已有词库继续使用。首次下载完整包，后续只更新需要的部分。</p>
+      <p class="companion-footnote">本次新增截图、贴图与离线中英韩 OCR：在原处标注、修正识别内容，再接着查询和保存。程序与词库仍可独立更新。</p>
       <p class="companion-footnote">以上帮助不额外调用 AI。花园与星河场景、跃仔微动和点击反馈均可在外观设置调整。</p>
     </section>
 
     <section class="your-space container" aria-labelledby="space-title"><div class="space-copy"><span class="space-label"><svg class="icon"><use href="#i-lock"/></svg> 学习，按自己的节奏</span><h2 id="space-title">你的资料，<br>你的方式。</h2><p>离线查词无需注册；不同本地账号分开管理资料。<br>需要 AI 时，由你选择服务；重要内容，随时备份。</p><div class="space-tags"><span>离线词典</span><span>本地账号</span><span>备份与恢复</span><span>自选 AI</span></div></div><div class="space-visual motion-scene" data-motion-view="off" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><img class="space-pig" src="assets/logo.svg?v=20261106-motion-1" width="230" height="230" alt="" loading="lazy"><span class="orbit-label label-one"><svg class="icon"><use href="#i-book"/></svg> 我喜欢的句子</span><span class="orbit-label label-two"><svg class="icon"><use href="#i-star"/></svg> 我的学习笔记</span><span class="orbit-label label-three"><svg class="icon"><use href="#i-message"/></svg> 下一次表达</span></div></section>
 
     <section class="section container download-section" id="download" aria-labelledby="download-title"><div class="download-intro"><p class="eyebrow">让学习发生在当下</p><h2 id="download-title">下一句韩语，<br>交给<span class="pink-text">语跃。</span></h2><p>先从离线查词开始，<br>再慢慢建立自己的韩语学习空间。</p><div class="download-shortcut"><kbd>⌘</kbd><kbd>⇧</kbd><kbd>Space</kbd><span>随时呼出，随手查。</span></div></div>
-      <div class="download-box"><div class="download-platform"><div class="platform-icon"><svg class="icon"><use href="#i-mac"/></svg></div><div><h3>下载 macOS 测试版</h3><p>Apple Silicon · M 系列芯片</p></div><span class="release-tag" id="app-version">测试版</span></div><p class="download-description">带上离线词典、你的好奇心，和一点点想学会的心情。</p><a class="button button-dark download-primary" id="app-download" href="https://github.com/SmalBox/LingoLeapOfficial/releases"><svg class="icon"><use href="#i-download"/></svg><span>前往 GitHub 下载</span><svg class="icon"><use href="#i-external"/></svg></a><a class="download-mirror" id="app-mirror" href="https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases">腾讯CNB 加速下载 <svg class="icon"><use href="#i-external"/></svg></a><p class="download-status" id="release-status" role="status">程序包与版本说明可在下载页查看。</p><div class="windows-download"><h3>Windows x64 测试版</h3><p>解压后运行 LingoLeap.exe · Ctrl + Shift + Space 呼出</p><a class="button button-dark" id="windows-download" href="https://github.com/SmalBox/LingoLeapOfficial/releases">前往 Windows 下载</a><a class="download-mirror" id="windows-mirror" href="https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases">腾讯CNB 加速下载</a><p class="download-status" id="windows-status">版本与下载信息以发布页为准。</p></div><div class="download-bottom"><span>macOS Apple Silicon · Windows x64</span><a href="https://github.com/SmalBox/LingoLeapOfficial/releases">全部版本 <svg class="icon"><use href="#i-arrow"/></svg></a></div></div>
+      <div class="download-box"><div class="download-platform"><div class="platform-icon"><svg class="icon"><use href="#i-mac"/></svg></div><div><h3>下载 macOS 测试版</h3><p>Apple Silicon · M 系列芯片</p></div><span class="release-tag" id="app-version">测试版</span></div><p class="download-description">带上截图取词、桌面贴图和离线词典，从眼前的内容开始。</p><a class="button button-dark download-primary" id="app-download" href="https://github.com/SmalBox/LingoLeapOfficial/releases"><svg class="icon"><use href="#i-download"/></svg><span>前往 GitHub 下载</span><svg class="icon"><use href="#i-external"/></svg></a><a class="download-mirror" id="app-mirror" href="https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases">腾讯CNB 加速下载 <svg class="icon"><use href="#i-external"/></svg></a><p class="download-status" id="release-status" role="status">程序包与版本说明可在下载页查看。</p><div class="windows-download"><h3>Windows x64 测试版</h3><p>解压后运行 LingoLeap.exe · Ctrl + Shift + Space 呼出</p><a class="button button-dark" id="windows-download" href="https://github.com/SmalBox/LingoLeapOfficial/releases">前往 Windows 下载</a><a class="download-mirror" id="windows-mirror" href="https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases">腾讯CNB 加速下载</a><p class="download-status" id="windows-status">版本与下载信息以发布页为准。</p></div><div class="download-bottom"><span>macOS Apple Silicon · Windows x64</span><a href="https://github.com/SmalBox/LingoLeapOfficial/releases">全部版本 <svg class="icon"><use href="#i-arrow"/></svg></a></div></div>
     </section>
 
     <section class="section container questions" id="questions" aria-labelledby="questions-title"><div><p class="eyebrow">开始之前，你可能想知道</p><h2 id="questions-title">一点小解答。</h2><p>还有想法？<a href="https://github.com/SmalBox/LingoLeapOfficial/issues">和我们聊聊 <svg class="icon"><use href="#i-external"/></svg></a></p></div><div class="faq-list">
-      <details><summary>不配置 AI，也能用吗？<span aria-hidden="true">+</span></summary><p>可以。内置基础词典支持离线查词和韩中英释义，个人资料整理也在本机进行。深入解析、AI 提问和部分练习反馈需要你配置可用的 AI 服务。</p></details>
+      <details><summary>不配置 AI，也能用吗？<span aria-hidden="true">+</span></summary><p>可以。截图、贴图和中英韩 OCR 均在本机运行，内置词典支持离线查词和韩中英释义。句子翻译、深入解析和部分练习反馈需要你配置可用的 AI 服务；本版尚未内置离线句子翻译模型。</p></details>
+      <details><summary>截图和贴图怎么用？需要哪些权限？<span aria-hidden="true">+</span></summary><p>默认截图快捷键为 ⌘/Ctrl + Alt + S，剪贴板图片贴图为 ⌘/Ctrl + Alt + V，隐藏或恢复贴图为 ⌘/Ctrl + Alt + P；Mac 的 Alt 为 Option，均可在设置修改。截图后按 P 可贴到桌面，贴图支持移动、缩放和再次编辑。Mac 首次截图按提示开启屏幕录制权限；导入图片和离线 OCR 不需要录屏授权。</p></details>
       <details><summary>需要注册账号或购买订阅吗？<span aria-hidden="true">+</span></summary><p>当前测试版无需注册云账号，也没有应用内订阅。首次启动会建立本地账号。你自行配置的 AI 服务可能产生费用，费用由对应服务收取。</p></details>
       <details><summary>可以选择哪些 AI 服务？<span aria-hidden="true">+</span></summary><p>可配置 DeepSeek、Ollama、oMLX，也支持供个人本机测试的 Codex 账号桥接。自行运行的本地模型需要另外安装和加载，不随应用提供。查询内容会发给你选择的服务，失败不会自动转发其他服务，AI 使用可能产生对应费用。</p></details>
       <details><summary>学习资料放在哪里？换电脑怎么办？<span aria-hidden="true">+</span></summary><p>历史、个人资料和学习记录默认保存在本机，各本地账号分别管理。可在“设置 → 备份与恢复”导出备份，并在另一台电脑恢复为新本地账号；目前没有云端自动同步。</p></details>

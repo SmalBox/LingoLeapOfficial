@@ -4,18 +4,19 @@ Choose Simplified Chinese, Traditional Chinese, English or Korean in **Settings 
 
 > Understand it now. Keep it. Use it again.
 
-**A desktop Korean companion for Chinese speakers.** Look up words, understand real sentences, express yourself naturally, and build a personal learning library as you go.
+**A desktop Korean companion for Chinese speakers.** Capture text from your screen, pin references to your desktop, look up words and build a personal Korean learning library as you go.
 
 **[Download for macOS & Windows](https://github.com/SmalBox/LingoLeapOfficial/releases)** · [Website](https://smalbox.github.io/LingoLeapOfficial/) · [Share feedback](https://github.com/SmalBox/LingoLeapOfficial/issues)
 
 也可使用 **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
 
-## What’s new in v0.25.0
+## What’s new in v0.31.1
 
-- **Update only what changed.** App updates reuse compatible offline dictionaries, with no repeat downloads of identical content.
-- **Your choice of timing.** Download recommended updates, manage app and dictionary downloads separately, or pin a dictionary version. Restart and install when ready.
-- **A smoother desktop companion.** Windows startup registration is fixed; single-click the tray for the menu or double-click to open the main window on Mac and Windows.
-- **Offline data stays with you.** Dictionary files, profiles and learning materials survive app replacement. First-time users should choose the full ZIP without the `program` suffix.
+- **Capture words where you find them.** Capture a screen region or import an image, recognize Chinese, English and Korean text offline, and correct the result before looking it up.
+- **Keep references on your desktop.** Pin captures or clipboard images, move, resize and stack them, then annotate or recognize text without leaving the pin. Small-image toolbars stay outside the picture.
+- **Mark up in place.** Use pen, arrows, shapes, mosaic, eraser and editable text, with undo/redo, clear, color and stroke controls. Compact editing and opacity controls keep other content visible.
+- **Continue from the source.** Select recognized text for lookup, use your configured AI for full-text translation, and save useful sources with your local materials and learning records.
+- **Keep your existing dictionary.** App and dictionary updates remain independent; use the full ZIP for a first installation.
 
 ## Korean, always within reach
 
@@ -28,9 +29,11 @@ Choose Simplified Chinese, Traditional Chinese, English or Korean in **Settings 
 
 ## For the things you love and the things you need
 
-Lyrics, subtitles, books, lessons, messages and work conversations: start with the sentence in front of you, understand it, and keep what matters.
+Lyrics, subtitles, books, lessons, messages and work conversations: capture or paste the sentence in front of you, recognize the text, understand it, and keep what matters.
 
 The built-in dictionary includes **11,902 sourced entries and 11,000 distinct headwords**. Basic lookups and personal organization work offline, without registration. Local profiles keep different people's materials separate, with backup and restore.
+
+Screen capture, desktop pins, offline OCR and dictionary lookup need no AI account or key. Sentence translation and deeper analysis use your configured AI service; an offline sentence-translation model is not included in this release.
 
 For deeper assistance, connect your own AI service. AI features require a working provider and may incur provider charges; offline dictionary use does not depend on AI.
 
@@ -39,7 +42,10 @@ For deeper assistance, connect your own AI service. AI features require a workin
 1. Download the **macOS Apple Silicon** or **Windows x64** ZIP from [Releases](https://github.com/SmalBox/LingoLeapOfficial/releases).
 2. Extract it and open LingoLeap. The short welcome guide can take you straight to the offline dictionary or AI settings.
 3. Use **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows to open quick lookup. Shortcuts are configurable.
-4. Keep useful results in your personal materials and learning library.
+4. Capture with **⌘/Ctrl + Alt + S**, pin a clipboard image with **⌘/Ctrl + Alt + V**, and hide/restore pins with **⌘/Ctrl + Alt + P**. Alt is Option on Mac; shortcuts are configurable.
+5. Keep useful results in your personal materials and learning library.
+
+On Mac, follow the first-capture screen-recording permission guide. Importing an image and offline OCR do not require screen-recording permission.
 
 Check for later versions in **Settings → Software updates**. From v0.18.0, download an update, then choose **Restart and install** to replace the app automatically. Earlier versions need a one-time installation of the new version. Dictionary content can be updated inside the app. If an older Windows version cannot connect through a proxy, download the latest ZIP, fully quit the old app and replace the program while keeping your user-data directory.
 
