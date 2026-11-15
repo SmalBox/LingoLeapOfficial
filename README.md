@@ -8,7 +8,7 @@
 
 For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**.
 
-## New in v0.35.2: read the whole sentence, offline
+## New in v0.35.3: read the whole sentence, offline
 
 - **Dictionary first, offline translation next.** Exact local matches appear first; otherwise, the installed offline model translates words, sentences and paragraphs. No AI account or API key is needed for offline translation.
 - **Compare all three languages.** Chinese input shows Korean with English alongside it; English shows Chinese with Korean; Korean shows Chinese with English. The main translation appears first, and Korean translations offer local speech when a matching system voice is available.
@@ -21,8 +21,8 @@ For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/Dip
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.35.2-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.35.2-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.35.3-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.35.3-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
