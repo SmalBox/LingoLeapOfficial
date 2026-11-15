@@ -1,57 +1,61 @@
 # LingoLeap 语跃
 
-Choose Simplified Chinese, Traditional Chinese, English or Korean in **Settings → Display language**. The first-run guide begins with this choice. Queries and learning materials keep their original languages.
-
 > Understand it now. Keep it. Use it again.
 
-**A desktop Korean companion for Chinese speakers.** Capture text from your screen, pin references to your desktop, look up words and build a personal Korean learning library as you go.
+**Your desktop companion for Korean, Chinese and English.** Capture a sentence from the screen, translate it offline, explore its meaning when you need more help, and keep useful answers in your own learning library.
 
-**[Download for macOS & Windows](https://github.com/SmalBox/LingoLeapOfficial/releases)** · [Website](https://smalbox.github.io/LingoLeapOfficial/) · [Share feedback](https://github.com/SmalBox/LingoLeapOfficial/issues)
+**[Download for macOS & Windows](https://github.com/SmalBox/LingoLeapOfficial/releases)** · [Website](https://smalbox.github.io/LingoLeapOfficial/) · [Setup & offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) · [Feedback](https://github.com/SmalBox/LingoLeapOfficial/issues)
 
-也可使用 **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**。
+For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**.
 
-## What’s new in v0.31.1
+## New in v0.35.2: read the whole sentence, offline
 
-- **Capture words where you find them.** Capture a screen region or import an image, recognize Chinese, English and Korean text offline, and correct the result before looking it up.
-- **Keep references on your desktop.** Pin captures or clipboard images, move, resize and stack them, then annotate or recognize text without leaving the pin. Small-image toolbars stay outside the picture.
-- **Mark up in place.** Use pen, arrows, shapes, mosaic, eraser and editable text, with undo/redo, clear, color and stroke controls. Compact editing and opacity controls keep other content visible.
-- **Continue from the source.** Select recognized text for lookup, use your configured AI for full-text translation, and save useful sources with your local materials and learning records.
-- **Keep your existing dictionary.** App and dictionary updates remain independent; use the full ZIP for a first installation.
+- **Dictionary first, offline translation next.** Exact local matches appear first; otherwise, the installed offline model translates words, sentences and paragraphs. No AI account or API key is needed for offline translation.
+- **Compare all three languages.** Chinese input shows Korean with English alongside it; English shows Chinese with Korean; Korean shows Chinese with English. The main translation appears first, and Korean translations offer local speech when a matching system voice is available.
+- **Install the model with one click.** Open Settings → Query & Translation and choose **Download and enable**. See download and verification progress, pause or resume, and let LingoLeap finish setup automatically. Recommended Q8 is about 1.91 GB; the smaller Q6 is about 1.47 GB. You only need one.
+- **Start from your screen.** Capture, annotate and recognize Chinese, English and Korean text offline. Translate recognized sentences locally; choose AI translation, explanation or a question when you want deeper help.
+- **Keep your references in place.** Closing detailed pin editing returns to the existing desktop pin, keeping its position, size and edits. Materials and Learning Library layouts work better with long text and smaller windows.
+- **Know what is happening.** Startup model preparation shows clear stages and verification progress. Option/Alt + Enter switches Lookup and Ask AI; the shortcut is shown in the app and can be changed.
 
-## Korean, always within reach
+## Choose your download
 
-- **Look up without breaking your flow.** Open a compact window with a shortcut, type or paste a word or sentence, and start with your offline dictionary.
-- **Understand meaning and usage.** Read Korean, Chinese and English explanations, word forms, grammar and examples. Select a phrase to ask a follow-up in context.
-- **Find the right expression.** Turn Chinese or English into Korean, with choices for your audience, communication channel and level of formality.
-- **Read as answers arrive.** Translations and explanations appear progressively while the rest of an answer is being prepared.
-- **Build a library that feels like yours.** Keep useful answers, edit them, add aliases and revisit them without requesting the same answer again.
-- **Keep learning after the lookup.** Organize vocabulary, grammar, expressions and common mistakes; practise recognition, listening, writing, dialogue and sentences.
+| What you need | What to get |
+| --- | --- |
+| First installation on Mac | `LingoLeap-0.35.2-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.35.2-windows-x64.zip` — Windows x64 |
+| Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
+| A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
+| Updating an existing app | Use Settings → Software updates; download, then Restart and install |
 
-## For the things you love and the things you need
+The full app ZIP includes dictionaries, OCR and the translation engine. Model weights are a separate, one-time download from Tencent's official model repository, and are reused across app updates. Program-only update ZIPs are for existing installations; use a full ZIP for a first installation. Dictionary content also updates separately.
 
-Lyrics, subtitles, books, lessons, messages and work conversations: capture or paste the sentence in front of you, recognize the text, understand it, and keep what matters.
+## Start in a minute
 
-The built-in dictionary includes **11,902 sourced entries and 11,000 distinct headwords**. Basic lookups and personal organization work offline, without registration. Local profiles keep different people's materials separate, with backup and restore.
+1. Extract the full ZIP. On Mac, move `LingoLeap.app` to Applications. On Windows, keep the extracted folder intact and open `LingoLeap.exe`.
+2. Choose your display language: Simplified Chinese, Traditional Chinese, English or Korean.
+3. Open Settings → Query & Translation → **Download and enable** for Q8 or Q6. LingoLeap downloads, verifies, installs and selects it. You can use the dictionary while waiting.
+4. Open quick lookup with **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows. Type or paste a word or sentence.
+5. Capture with **⌘/Ctrl + Alt + S**, pin a clipboard image with **⌘/Ctrl + Alt + V**, and hide/restore pins with **⌘/Ctrl + Alt + P**. Alt is Option on Mac; shortcuts are configurable.
 
-Screen capture, desktop pins, offline OCR and dictionary lookup need no AI account or key. Sentence translation and deeper analysis use your configured AI service; an offline sentence-translation model is not included in this release.
+On Mac, follow the screen-recording permission guide before your first screenshot. Importing images and offline OCR do not require screen-recording permission. Local pronunciation depends on installed system voices.
 
-For deeper assistance, connect your own AI service. AI features require a working provider and may incur provider charges; offline dictionary use does not depend on AI.
+## Fully offline installation
 
-## Get started
+On a connected computer, download the matching full application ZIP and one supported model: [Q8, recommended](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf) or [Q6, smaller](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf). Transfer both to the offline computer.
 
-1. Download the **macOS Apple Silicon** or **Windows x64** ZIP from [Releases](https://github.com/SmalBox/LingoLeapOfficial/releases).
-2. Extract it and open LingoLeap. The short welcome guide can take you straight to the offline dictionary or AI settings.
-3. Use **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows to open quick lookup. Shortcuts are configurable.
-4. Capture with **⌘/Ctrl + Alt + S**, pin a clipboard image with **⌘/Ctrl + Alt + V**, and hide/restore pins with **⌘/Ctrl + Alt + P**. Alt is Option on Mac; shortcuts are configurable.
-5. Keep useful results in your personal materials and learning library.
+On Mac, put `LingoLeap-models/` beside `LingoLeap.app`. On Windows, put `LingoLeap-models/` beside `LingoLeap.exe`. Keep the original GGUF filename. Start the app, or choose Rescan models if it is already running. Alternatively, choose **Install downloaded model file** in Settings; the app verifies and copies it into the default shared folder without going online.
 
-On Mac, follow the first-capture screen-recording permission guide. Importing an image and offline OCR do not require screen-recording permission.
+No Python, Ollama, Node.js or extra runtime installation is needed. See the [illustrated setup steps](https://smalbox.github.io/LingoLeapOfficial/#offline) or [save the offline guide](https://smalbox.github.io/LingoLeapOfficial/assets/offline-setup-en.md).
 
-Check for later versions in **Settings → Software updates**. From v0.18.0, download an update, then choose **Restart and install** to replace the app automatically. Earlier versions need a one-time installation of the new version. Dictionary content can be updated inside the app. If an older Windows version cannot connect through a proxy, download the latest ZIP, fully quit the old app and replace the program while keeping your user-data directory.
+## Make it your own
 
-## Make LingoLeap better with us
+The built-in dictionary contains **11,902 sourced entries and 11,000 distinct headwords**. Local profiles separate materials, history and learning records, with backup and restore. Useful AI answers can be kept, edited, tagged and found again. Save vocabulary, grammar, expressions and common mistakes, then practise recognition, listening, writing, dialogue and sentence use.
 
-Tell us about confusing sentences, unnatural expressions and interactions that could feel smoother through [Issues](https://github.com/SmalBox/LingoLeapOfficial/issues).
+Offline dictionaries, OCR and installed-model translation need no cloud account. AI translation, explanations and questions use the service you explicitly choose and may incur that provider's charges. AI calls are manual by default, with optional automatic policies. A failed offline translation does not silently switch to a cloud service.
+
+Current builds are Alpha test releases for **macOS Apple Silicon and Windows x64**. Translation can make mistakes; keep the original and use contextual explanations when needed.
+
+For later versions, use **Settings → Software updates** and choose **Restart and install** after downloading. Your local materials and compatible models are retained. Fully quit the old app before manually replacing it; keep your user-data folder and any external model folder.
 
 Developer: **蘸糖 DipSugar**
 
