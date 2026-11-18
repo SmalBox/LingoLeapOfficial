@@ -8,21 +8,21 @@
 
 For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**.
 
-## New in v0.35.3: read the whole sentence, offline
+## New in v0.37.11: capture, understand and reuse
 
-- **Dictionary first, offline translation next.** Exact local matches appear first; otherwise, the installed offline model translates words, sentences and paragraphs. No AI account or API key is needed for offline translation.
-- **Compare all three languages.** Chinese input shows Korean with English alongside it; English shows Chinese with Korean; Korean shows Chinese with English. The main translation appears first, and Korean translations offer local speech when a matching system voice is available.
-- **Install the model with one click.** Open Settings → Query & Translation and choose **Download and enable**. See download and verification progress, pause or resume, and let LingoLeap finish setup automatically. Recommended Q8 is about 1.91 GB; the smaller Q6 is about 1.47 GB. You only need one.
-- **Start from your screen.** Capture, annotate and recognize Chinese, English and Korean text offline. Translate recognized sentences locally; choose AI translation, explanation or a question when you want deeper help.
-- **Keep your references in place.** Closing detailed pin editing returns to the existing desktop pin, keeping its position, size and edits. Materials and Learning Library layouts work better with long text and smaller windows.
-- **Know what is happening.** Startup model preparation shows clear stages and verification progress. Option/Alt + Enter switches Lookup and Ask AI; the shortcut is shown in the app and can be changed.
+- **Read from your screen without losing your place.** Capture, annotate, pin and recognize text in place. Edit recognized text directly, translate a selection or a whole passage offline, and see lookup results without searching for them.
+- **OCR that fits your computer.** Choose the macOS or Windows system engine, or the bundled compatibility engine. Mixed Chinese, English and Korean text keeps a local fallback; images stay on your device.
+- **Listen and practise in all three languages.** Use installed system voices for Chinese, English and Korean. Follow recognition, listening, writing, text dialogue and sentence practice, with progress kept by language and meaning.
+- **Make useful answers your own.** Search offline translations, personal materials, captured sources and learning items together. Correct and confirm translations for exact reuse, add context, and organize content into works or projects.
+- **A clearer, calmer capture flow.** Improve long OCR text, small-window layouts and annotation controls. Fix Mac capture access, first-permission recovery and stale errors after successful retries. Startup does not ask you to unlock AI for offline work.
+- **The familiar offline setup.** Exact dictionary matches appear first; the installed model translates the rest into the other two languages. Install Q8 or Q6 once with **Download and enable**, then reuse it across updates. AI explanation and questions remain an explicit choice.
 
 ## Choose your download
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.35.3-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.35.3-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.37.11-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.37.11-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
@@ -37,7 +37,7 @@ The full app ZIP includes dictionaries, OCR and the translation engine. Model we
 4. Open quick lookup with **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows. Type or paste a word or sentence.
 5. Capture with **⌘/Ctrl + Alt + S**, pin a clipboard image with **⌘/Ctrl + Alt + V**, and hide/restore pins with **⌘/Ctrl + Alt + P**. Alt is Option on Mac; shortcuts are configurable.
 
-On Mac, follow the screen-recording permission guide before your first screenshot. Importing images and offline OCR do not require screen-recording permission. Local pronunciation depends on installed system voices.
+On Mac, allow screen recording when first capturing; if macOS asks you to quit and reopen, follow that step once. Importing images and offline OCR do not require screen-recording permission. Chinese, English and Korean pronunciation depends on installed system voices.
 
 ## Fully offline installation
 
