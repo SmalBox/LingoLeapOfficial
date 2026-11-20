@@ -8,21 +8,22 @@
 
 For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**.
 
-## New in v0.37.11: capture, understand and reuse
+## New in v0.39.7: capture a moment, keep reading
 
-- **Read from your screen without losing your place.** Capture, annotate, pin and recognize text in place. Edit recognized text directly, translate a selection or a whole passage offline, and see lookup results without searching for them.
-- **OCR that fits your computer.** Choose the macOS or Windows system engine, or the bundled compatibility engine. Mixed Chinese, English and Korean text keeps a local fallback; images stay on your device.
-- **Listen and practise in all three languages.** Use installed system voices for Chinese, English and Korean. Follow recognition, listening, writing, text dialogue and sentence practice, with progress kept by language and meaning.
-- **Make useful answers your own.** Search offline translations, personal materials, captured sources and learning items together. Correct and confirm translations for exact reuse, add context, and organize content into works or projects.
-- **A clearer, calmer capture flow.** Improve long OCR text, small-window layouts and annotation controls. Fix Mac capture access, first-permission recovery and stale errors after successful retries. Startup does not ask you to unlock AI for offline work.
-- **The familiar offline setup.** Exact dictionary matches appear first; the installed model translates the rest into the other two languages. Install Q8 or Q6 once with **Download and enable**, then reuse it across updates. AI explanation and questions remain an explicit choice.
+- **Short recordings, on your terms.** Select a live region, then start, pause or stop explicitly. Pin the clip on your desktop, save silent MP4, export a short GIF, or extract a frame for OCR and translation. Up to 3 minutes, 15 fps and 1280×720 per clip; GIF export is up to 10 seconds.
+- **Tools that stay out of the way.** Refine capture and pin toolbar sizing, in-place annotation, opacity and editing transitions. Configure separate screenshot and recording folders and filename templates.
+- **Change OCR where the result is.** The first recognition uses your default strategy. Choose a system or bundled compatibility engine and rerun from the result panel; canceled or failed retries keep the previous text. Recognition stays on your device.
+- **Read, translate and keep useful material.** Correct recognized text, look up a selection, translate offline, listen in Chinese, English or Korean, and save material for later practice and reuse.
+- **Install a model once.** Dictionaries and OCR are ready with the app. Add Q8 or Q6 through **Download and enable** for offline sentence translation; existing models remain available across updates. AI explanations and questions stay optional.
+
+**Known Mac issue:** on some macOS systems, the first capture after each full app restart still shows an additional system confirmation. This release keeps the established capture workflow but does not eliminate that prompt. Existing screen-recording permission does not need repeated removal or resetting. If capture fails, report the app version, OS version and exact message.
 
 ## Choose your download
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.37.11-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.37.11-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.39.7-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.39.7-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
@@ -35,7 +36,8 @@ The full app ZIP includes dictionaries, OCR and the translation engine. Model we
 2. Choose your display language: Simplified Chinese, Traditional Chinese, English or Korean.
 3. Open Settings → Query & Translation → **Download and enable** for Q8 or Q6. LingoLeap downloads, verifies, installs and selects it. You can use the dictionary while waiting.
 4. Open quick lookup with **⌘ + Shift + Space** on Mac or **Ctrl + Shift + Space** on Windows. Type or paste a word or sentence.
-5. Capture with **⌘/Ctrl + Alt + S**, pin a clipboard image with **⌘/Ctrl + Alt + V**, and hide/restore pins with **⌘/Ctrl + Alt + P**. Alt is Option on Mac; shortcuts are configurable.
+5. Capture with **⌘/Ctrl + Alt + S**, pin a clipboard image with **⌘/Ctrl + Alt + V**, and hide/restore pins with **⌘/Ctrl + Alt + P**.
+6. Use **⌘/Ctrl + Alt + R** to select a region, start or stop a short recording, and **⌘/Ctrl + Alt + Shift + R** to pause/resume. Alt is Option on Mac; shortcuts are configurable.
 
 On Mac, allow screen recording when first capturing; if macOS asks you to quit and reopen, follow that step once. Importing images and offline OCR do not require screen-recording permission. Chinese, English and Korean pronunciation depends on installed system voices.
 

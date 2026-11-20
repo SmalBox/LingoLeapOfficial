@@ -1,4 +1,4 @@
-# LingoLeap v0.35.3 — installation and fully offline use
+# LingoLeap v0.39.7 — installation and fully offline use
 
 ## One-click setup
 
