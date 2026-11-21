@@ -8,13 +8,13 @@
 
 For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**.
 
-## New in v0.39.7: capture a moment, keep reading
+## New in v0.39.14: make every annotation clearer
 
-- **Short recordings, on your terms.** Select a live region, then start, pause or stop explicitly. Pin the clip on your desktop, save silent MP4, export a short GIF, or extract a frame for OCR and translation. Up to 3 minutes, 15 fps and 1280×720 per clip; GIF export is up to 10 seconds.
-- **Tools that stay out of the way.** Refine capture and pin toolbar sizing, in-place annotation, opacity and editing transitions. Configure separate screenshot and recording folders and filename templates.
-- **Change OCR where the result is.** The first recognition uses your default strategy. Choose a system or bundled compatibility engine and rerun from the result panel; canceled or failed retries keep the previous text. Recognition stays on your device.
-- **Read, translate and keep useful material.** Correct recognized text, look up a selection, translate offline, listen in Chinese, English or Korean, and save material for later practice and reuse.
-- **Install a model once.** Dictionaries and OCR are ready with the app. Add Q8 or Q6 through **Download and enable** for offline sentence translation; existing models remain available across updates. AI explanations and questions stay optional.
+- **Text in your own style.** Choose installed fonts, set fill and outline colors separately, and use fine outlines that keep the letters readable. Italics work with CJK fonts while editing and in saved images.
+- **A color picker that gives the tools room.** Colors open beside their button instead of stretching the toolbar. Edit, move, resize or rotate text in place and use undo when needed.
+- **Smoother Mac text input.** Improve the handoff between IME candidates, the system menu bar and Dock during screenshot text entry, with state restored when editing ends.
+- **Keep useful moments.** Capture screenshots, record a short live region, pin images or clips, save MP4/GIF and extract frames for OCR and offline translation. Recording remains limited to 3 minutes, 15 fps and 1280×720; GIF export is up to 10 seconds.
+- **Install a model once.** Dictionaries and OCR are ready with the full app. Add Q8 or Q6 through **Download and enable** for offline sentence translation; existing models and compatible content remain available across updates. AI explanations and questions stay optional.
 
 **Known Mac issue:** on some macOS systems, the first capture after each full app restart still shows an additional system confirmation. This release keeps the established capture workflow but does not eliminate that prompt. Existing screen-recording permission does not need repeated removal or resetting. If capture fails, report the app version, OS version and exact message.
 
@@ -22,8 +22,8 @@ For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/Dip
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.39.7-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.39.7-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.39.14-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.39.14-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
