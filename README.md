@@ -10,7 +10,7 @@ For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/Dip
 
 ## Offline model download
 
-For offline sentence translation, download one model once: **[Q8 recommended, 1.91 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf)** or [Q6 smaller, 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf). The same GGUF works on macOS and Windows and is reused across application updates.
+For offline sentence translation, download one model once: **[Q8 recommended, 1.91 GB](https://github.com/SmalBox/LingoLeapOfficial/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf)** ([Tencent CNB mirror](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf)) or [Q6 smaller, 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf). The same GGUF works on macOS and Windows and is reused across application updates. Q8 is hosted as an independent, immutable model resource; it is not included again in every application release.
 
 If the in-app download is slow or fails, use a browser or download tool. In Settings → Query & Translation, open the offline installation section and choose **Install downloaded model file**. LingoLeap verifies and configures it automatically. No Python, Ollama or API key is required for local translation.
 

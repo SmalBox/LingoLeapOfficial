@@ -2,7 +2,7 @@
 
 ## 下载慢或失败：手动下载后安装
 
-[下载 Q8 推荐模型，约 1.91 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf) · [下载 Q6 较小模型，约 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf)
+[Q8 推荐 · 腾讯CNB源 · 约 1.91 GB](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf) · [Q8 推荐 · GitHub源](https://github.com/SmalBox/LingoLeapOfficial/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf) · [下载 Q6 较小模型，约 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf)
 
 使用浏览器或下载工具下载一个 GGUF 文件，保留原文件名；在软件的查询与翻译设置中点击“安装已下载的模型文件”。软件在本机校验并配置，不需要自己填写路径。旧版此按钮位于“完全离线安装与模型目录”中。
 
@@ -14,7 +14,7 @@
 
 关闭设置页后下载继续；可暂停，网络异常后点击“继续下载并启用”。退出软件会暂停并保留部分文件，下次启动再次点击下载即可续传。服务不支持 Range 时会安全地从头下载；已有完整但未校验的临时文件直接校验，不重复下载。
 
-下载使用与软件更新相同的网络模式，但使用独立连接会话。连接异常时可检查系统代理，或在软件更新的网络选项中选择合适模式后重试。不会索取模型站账号或发送 AI 服务凭据。模型下载使用官方固定版本链接，速度和可达性仍取决于该来源与网络；连接失败时保留离线安装入口。
+下载使用与软件更新相同的网络模式，但使用独立连接会话。连接异常时可检查系统代理，或在软件更新的网络选项中选择合适模式后重试。不会索取模型站账号或发送 AI 服务凭据。Q8 提供腾讯CNB源、GitHub源及腾讯模型原始源的固定文件链接，Q6 当前使用原始源。支持来源选择的新版可在软件中切换；旧版可使用上方链接在浏览器下载，再选择本地安装。均为同一固定型号与版本。
 
 自动安装位置为 `软件默认共享模型目录`，供同一系统用户下的 LingoLeap 本地账号共享。常见根目录为 macOS `~/Library/Application Support/lingoleap/translation-models/`、Windows `%APPDATA%/lingoleap/translation-models/`，**以设置中显示的默认安装目录为准**。不会尝试向可能不可写的应用安装目录自动塞入权重。
 

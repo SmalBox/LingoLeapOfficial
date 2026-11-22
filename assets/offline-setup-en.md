@@ -2,7 +2,7 @@
 
 ## Slow or failed download?
 
-[Download recommended Q8, 1.91 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf) · [Download smaller Q6, 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf)
+[Q8 recommended, GitHub, 1.91 GB](https://github.com/SmalBox/LingoLeapOfficial/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf) · [Q8 Tencent CNB mirror](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf) · [Download smaller Q6, 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf)
 
 Use a browser or download tool, keep the GGUF filename, then choose Install downloaded model file in Settings → Query & Translation. In earlier versions, this button is inside the fully offline installation section. The app verifies and configures the model automatically.
 
@@ -16,8 +16,11 @@ The app downloads, verifies and installs it in its default shared folder, then s
 
 On a connected computer, download the full application ZIP and one model below, then transfer both using a USB drive or local network. The application ZIP includes dictionaries, OCR and the native translation engine. Do not choose a program-only update ZIP for a first installation.
 
-Recommended Q8:
-https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf
+Recommended Q8 (download once; independently versioned resource):
+https://github.com/SmalBox/LingoLeapOfficial/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf
+
+Tencent CNB mirror of the same Q8:
+https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf
 
 Smaller Q6:
 https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf
