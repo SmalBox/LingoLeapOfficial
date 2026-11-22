@@ -12,15 +12,15 @@ For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/Dip
 
 For offline sentence translation, download one model once: **[Q8 recommended, 1.91 GB](https://github.com/SmalBox/LingoLeapOfficial/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf)** ([Tencent CNB mirror](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases/download/models-hy-mt2-1.8b-a0c709d9/Hy-MT2-1.8B-Q8_0.gguf)) or [Q6 smaller, 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf). The same GGUF works on macOS and Windows and is reused across application updates. Q8 is hosted as an independent, immutable model resource; it is not included again in every application release.
 
-If the in-app download is slow or fails, use a browser or download tool. In Settings → Query & Translation, open the offline installation section and choose **Install downloaded model file**. LingoLeap verifies and configures it automatically. No Python, Ollama or API key is required for local translation.
+If the in-app download is slow or fails, use a browser or download tool. In Settings → Query & Translation, choose **Install downloaded model file**. LingoLeap verifies and configures it automatically. No Python, Ollama or API key is required for local translation.
 
-## New in v0.39.14: make every annotation clearer
+## New in v0.39.16: an easier first start
 
-- **Text in your own style.** Choose installed fonts, set fill and outline colors separately, and use fine outlines that keep the letters readable. Italics work with CJK fonts while editing and in saved images.
-- **A color picker that gives the tools room.** Colors open beside their button instead of stretching the toolbar. Edit, move, resize or rotate text in place and use undo when needed.
-- **Smoother Mac text input.** Improve the handoff between IME candidates, the system menu bar and Dock during screenshot text entry, with state restored when editing ends.
-- **Keep useful moments.** Capture screenshots, record a short live region, pin images or clips, save MP4/GIF and extract frames for OCR and offline translation. Recording remains limited to 3 minutes, 15 fps and 1280×720; GIF export is up to 10 seconds.
-- **Install a model once.** Dictionaries and OCR are ready with the full app. Add Q8 or Q6 through **Download and enable** for offline sentence translation; existing models and compatible content remain available across updates. AI explanations and questions stay optional.
+- **Choose where your model comes from.** Q8 is an independent download from GitHub or Tencent CNB, with the original Tencent source also available. The app defaults to Tencent CNB and reuses compatible installed models.
+- **A clear next step when downloads fail.** Resume from another source, open the file in a browser, copy its download link or install a downloaded GGUF. Full verification happens before activation.
+- **Codex setup for your computer.** Open the official installer for the current platform, copy a manual command, read the guide and recheck the CLI before signing in. Installation starts only when requested.
+- **Reach the right AI settings.** The OCR result action now opens AI service configuration correctly, with setup and recovery feedback in all four interface languages.
+- **Keep your daily workflow.** Screenshot and pin editing, short recording, OCR, offline translation and learning materials stay available. Existing compatible models and dictionaries remain in use across updates.
 
 **Known Mac issue:** on some macOS systems, the first capture after each full app restart still shows an additional system confirmation. This release keeps the established capture workflow but does not eliminate that prompt. Existing screen-recording permission does not need repeated removal or resetting. If capture fails, report the app version, OS version and exact message.
 
@@ -28,13 +28,13 @@ If the in-app download is slow or fails, use a browser or download tool. In Sett
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.39.14-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.39.14-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.39.16-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.39.16-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
 
-The full app ZIP includes dictionaries, OCR and the translation engine. Model weights are a separate, one-time download from Tencent's official model repository, and are reused across app updates. Program-only update ZIPs are for existing installations; use a full ZIP for a first installation. Dictionary content also updates separately.
+The full app ZIP includes dictionaries, OCR and the translation engine. Model weights are a separate, one-time download from the selected model source, and are reused across app updates. Program-only update ZIPs are for existing installations; use a full ZIP for a first installation. Dictionary content also updates separately.
 
 ## Start in a minute
 
