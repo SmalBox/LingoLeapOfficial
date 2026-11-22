@@ -1,5 +1,11 @@
 # LingoLeap v0.39.7 安装与完全离线使用
 
+## 下载慢或失败：手动下载后安装
+
+[下载 Q8 推荐模型，约 1.91 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf) · [下载 Q6 较小模型，约 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf)
+
+使用浏览器或下载工具下载一个 GGUF 文件，保留原文件名；在软件的查询与翻译设置中点击“安装已下载的模型文件”。软件在本机校验并配置，不需要自己填写路径。旧版此按钮位于“完全离线安装与模型目录”中。
+
 ## 推荐：一键下载并启用
 
 1. 打开 **设置 → 查询与翻译 → 离线模型安装**。

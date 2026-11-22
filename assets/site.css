@@ -562,3 +562,6 @@ h2 { font-size: clamp(32px, 3.1vw, 43px); line-height: 1.45; font-weight: 650; l
 .model-download-note { margin-top: 20px; font-size: 12px; color: var(--muted); }
 @media (max-width: 800px) { .offline-grid { grid-template-columns: minmax(0, 1fr); gap: 34px; } .offline-preview { max-width: 560px; width: 100%; margin-inline: auto; } .offline-steps { max-width: 560px; margin-inline: auto; } }
 @media (max-width: 580px) { .offline-preview { padding: 24px; } .offline-folders { grid-template-columns: minmax(0, 1fr); } .offline-deployment > summary { padding: 20px; } .offline-deployment-body { padding: 0 20px 20px; } .offline-primary p { font-size: 25px; } }
+
+.offline-manual-download { margin-top: 24px; padding: 22px; border: 1px solid var(--line, #dddcd4); border-radius: 18px; }
+.offline-manual-download p { margin: 8px 0 14px; line-height: 1.8; }

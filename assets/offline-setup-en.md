@@ -1,4 +1,10 @@
-# LingoLeap v0.39.7 — installation and fully offline use
+# LingoLeap — installation and fully offline use
+
+## Slow or failed download?
+
+[Download recommended Q8, 1.91 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf) · [Download smaller Q6, 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf)
+
+Use a browser or download tool, keep the GGUF filename, then choose Install downloaded model file in Settings → Query & Translation. In earlier versions, this button is inside the fully offline installation section. The app verifies and configures the model automatically.
 
 ## One-click setup
 

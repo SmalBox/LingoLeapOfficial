@@ -8,6 +8,12 @@
 
 For another download option, use **[腾讯CNB 加速下载](https://cnb.cool/DipSugar/LingoLeapOfficial/-/releases)**.
 
+## Offline model download
+
+For offline sentence translation, download one model once: **[Q8 recommended, 1.91 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q8_0.gguf)** or [Q6 smaller, 1.47 GB](https://huggingface.co/tencent/Hy-MT2-1.8B-GGUF/resolve/a0c709d9fac510f2c807aa3af52872340dc37a4a/Hy-MT2-1.8B-Q6_K.gguf). The same GGUF works on macOS and Windows and is reused across application updates.
+
+If the in-app download is slow or fails, use a browser or download tool. In Settings → Query & Translation, open the offline installation section and choose **Install downloaded model file**. LingoLeap verifies and configures it automatically. No Python, Ollama or API key is required for local translation.
+
 ## New in v0.39.14: make every annotation clearer
 
 - **Text in your own style.** Choose installed fonts, set fill and outline colors separately, and use fine outlines that keep the letters readable. Italics work with CJK fonts while editing and in saved images.
