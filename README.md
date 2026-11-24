@@ -14,13 +14,12 @@ For offline sentence translation, download one model once: **[Q8 recommended, 1.
 
 If the in-app download is slow or fails, use a browser or download tool. In Settings → Query & Translation, choose **Install downloaded model file**. LingoLeap verifies and configures it automatically. No Python, Ollama or API key is required for local translation.
 
-## New in v0.40.7: clearer captures, useful desktop pins
+## New in v0.40.8: get into your capture sooner
 
-- **Keep a whole scrolling page.** Manual or automatic scrolling capture with incremental previews, early Mac permission guidance and a separate capture-and-copy shortcut.
-- **Keep the original pixels.** Lossless PNG by default, with original PNG, high-quality JPEG and compact JPEG exports. Copies, editing and history preserve the original image.
-- **Pin text as well as images.** Clipboard text becomes an editable pin. Nearly transparent text inputs, installed fonts, separate fill and fine outline colors, and floating palettes keep editing readable.
-- **Arrange your references.** Lock and unlock in the first-level toolbar, enable mouse click-through, group pins for movement and switching, and close pins without having them reappear on global restore.
-- **Find it again at a glance.** Desktop pins have current thumbnails. Separate history, pins, learning materials and recordings; filter image history by date and reopen earlier versions. History clearly shows whether recording is enabled, with one-click enabling when off.
+- **Start capturing with less waiting.** The capture shortcut opens the selection view faster, while keeping original image quality.
+- **Move smoothly between screens.** Capture interfaces prepare together across displays, with better reuse for repeated captures and mixed resolutions.
+- **Cancel and start again.** Late preparation results are discarded when a capture is cancelled or closed, keeping the next capture fresh.
+- **Keep the original pixels.** Copy, annotate, save, pin and recognize text with lossless originals. Scrolling capture, editable text pins, groups, thumbnails and image history remain available.
 
 **Known Mac issue:** on some macOS systems, the first capture after each full app restart still shows an additional system confirmation. This release keeps the established capture workflow but does not eliminate that prompt. Existing screen-recording permission does not need repeated removal or resetting. If capture fails, report the app version, OS version and exact message.
 
@@ -28,8 +27,8 @@ If the in-app download is slow or fails, use a browser or download tool. In Sett
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.40.7-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.40.7-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.40.8-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.40.8-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
