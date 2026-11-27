@@ -14,12 +14,16 @@ For offline sentence translation, download one model once: **[Q8 recommended, 1.
 
 If the in-app download is slow or fails, use a browser or download tool. In Settings → Query & Translation, choose **Install downloaded model file**. LingoLeap verifies and configures it automatically. No Python, Ollama or API key is required for local translation.
 
-## New in v0.40.8: get into your capture sooner
+## New in v0.45.0: your space, ready when you return
 
-- **Start capturing with less waiting.** The capture shortcut opens the selection view faster, while keeping original image quality.
-- **Move smoothly between screens.** Capture interfaces prepare together across displays, with better reuse for repeated captures and mixed resolutions.
-- **Cancel and start again.** Late preparation results are discarded when a capture is cancelled or closed, keeping the next capture fresh.
-- **Keep the original pixels.** Copy, annotate, save, pin and recognize text with lossless originals. Scrolling capture, editable text pins, groups, thumbnails and image history remain available.
+- **Stay signed in.** Valid saved cloud sessions restore after updates and restarts. You can turn off automatic login in account settings; signing out stops restoration. Temporary outages keep your cached account details available.
+- **A free welcome gift.** Sign in to receive Cotton Candy and Starlight themes, batch image OCR, screenshot collages and smaller image exports. Theme previews and accent colors work across the main window and quick lookup. Images are processed locally.
+- **A smoother companion.** Yuezai's entrances, detail transitions and interrupted animations feel more natural. Rounded quick-lookup corners stay transparent; capture toolbars can be dragged when you need another position.
+- **Entitlements at a glance.** Compact cards support search, feature/identity filters, pagination and details, including cached results offline. Features requiring online authorization still check before use.
+- **Feedback without another account.** Submit a bug, improvement or feature suggestion in Help & feedback, follow its status and find official community contacts inside the app.
+- **Keep the whole workflow.** Fast capture startup, lossless images, scrolling capture, editable desktop pins, short recordings, multilingual OCR, offline translation and personal learning materials work together.
+
+Offline dictionary, capture, OCR and installed-model translation remain available without a cloud account. Cloud login does not automatically upload or sync your learning library. Account registration follows the instructions in the app; AI provider usage is separate from the free welcome gift.
 
 **Known Mac issue:** on some macOS systems, the first capture after each full app restart still shows an additional system confirmation. This release keeps the established capture workflow but does not eliminate that prompt. Existing screen-recording permission does not need repeated removal or resetting. If capture fails, report the app version, OS version and exact message.
 
@@ -27,8 +31,8 @@ If the in-app download is slow or fails, use a browser or download tool. In Sett
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.40.8-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.40.8-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.45.0-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.45.0-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
@@ -57,11 +61,11 @@ No Python, Ollama, Node.js or extra runtime installation is needed. See the [ill
 
 ## Make it your own
 
-The built-in dictionary contains **11,902 sourced entries and 11,000 distinct headwords**. Local profiles separate materials, history and learning records, with backup and restore. Useful AI answers can be kept, edited, tagged and found again. Save vocabulary, grammar, expressions and common mistakes, then practise recognition, listening, writing, dialogue and sentence use.
+The built-in dictionary contains **11,902 sourced entries and 11,000 distinct headwords**. Local profiles separate materials, history and learning records, with backup and restore. Useful AI answers can be kept, edited, tagged and found again. Submit categorized feedback in the app and track replies without a GitHub account. Save vocabulary, grammar, expressions and common mistakes, then practise recognition, listening, writing, dialogue and sentence use.
 
 Offline dictionaries, OCR and installed-model translation need no cloud account. AI translation, explanations and questions use the service you explicitly choose and may incur that provider's charges. AI calls are manual by default, with optional automatic policies. A failed offline translation does not silently switch to a cloud service.
 
-Current builds are Alpha test releases for **macOS Apple Silicon and Windows x64**. Translation can make mistakes; keep the original and use contextual explanations when needed.
+Available for **macOS Apple Silicon and Windows x64**. Translation can make mistakes; keep the original and use contextual explanations when needed.
 
 For later versions, use **Settings → Software updates** and choose **Restart and install** after downloading. Your local materials and compatible models are retained. Fully quit the old app before manually replacing it; keep your user-data folder and any external model folder.
 

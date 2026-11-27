@@ -33,7 +33,7 @@ Monitor Actions failures. If a feed expires, clients retain their existing app/d
 
 From v0.18.0, a downloaded app update can be installed with **Restart and install**. An independent helper replaces the application after it exits, restarts it, and restores the previous app if startup is not confirmed. From v0.25.0, verified resources are stored independently; combination installation checkpoints the resource selection and restores it with the app on failure. Downloading alone does not trigger installation. Resource application requires confirmation; rollback and pinning remain available.
 
-These are Alpha ZIP packages. App code signing, notarization and system installers are separate from signed update metadata. Platforms without native validated packages get no placeholder downloads.
+Releases provide ZIP packages for macOS Apple Silicon and Windows x64. App code signing, notarization and system installers are separate from signed update metadata. Platforms without native validated packages get no placeholder downloads.
 
 ## Tencent CNB distribution
 

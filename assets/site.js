@@ -93,14 +93,14 @@ async function updateDownloads() {
     document.querySelector("#app-version").textContent = `v${app.version}`;
     const link = document.querySelector("#app-download");
     link.href = app.path;
-    link.querySelector("span").textContent = "下载 macOS 测试版";
+    link.querySelector("span").textContent = "下载 macOS 版";
     status.textContent = `v${app.version} · ${(app.bytes / 1048576).toFixed(1)} MB · ZIP 程序包`;
     status.dataset.state = "ready";
     if (mirror.status === "fulfilled" && mirror.value.version === app.version && mirror.value.sha256 === app.sha256 && mirror.value.bytes === app.bytes) document.querySelector("#app-mirror").href = mirror.value.path;
     const [windows, windowsMirror] = await Promise.allSettled([verifiedApp(sources.github,key,"win32","x64"),verifiedApp(sources.cnb,key,"win32","x64")]);
     if(windows.status === "fulfilled") {
       document.querySelector("#windows-download").href=windows.value.path;
-      document.querySelector("#windows-download").textContent="下载 Windows 测试版";
+      document.querySelector("#windows-download").textContent="下载 Windows 版";
       document.querySelector("#windows-status").textContent=`v${windows.value.version} · ${(windows.value.bytes/1048576).toFixed(1)} MB · ZIP 程序包`;
       if(windowsMirror.status==="fulfilled" && windowsMirror.value.sha256===windows.value.sha256 && windowsMirror.value.version===windows.value.version && windowsMirror.value.bytes===windows.value.bytes)document.querySelector("#windows-mirror").href=windowsMirror.value.path;
     }

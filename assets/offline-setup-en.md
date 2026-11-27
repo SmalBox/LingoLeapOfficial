@@ -10,7 +10,7 @@ Use a browser or download tool, keep the GGUF filename, then choose Install down
 
 Download the full application ZIP for macOS Apple Silicon or Windows x64. Extract it and open LingoLeap. In Settings → Query & Translation, choose Download and enable for Q8 (recommended, about 1.91 GB) or Q6 (smaller, about 1.47 GB). You only need one model.
 
-In v0.40.8, select Tencent CNB, GitHub or the original source for Q8. The app downloads, verifies and installs it in its default shared folder, then selects it. Progress is shown, with pause/resume and retry. Downloads continue when you leave Settings. If you quit the app, downloaded data is kept; choose Download again to resume. If the server does not support resume, downloading restarts safely. Existing valid models are reused across app updates.
+In v0.45.0, select Tencent CNB, GitHub or the original source for Q8. The app downloads, verifies and installs it in its default shared folder, then selects it. Progress is shown, with pause/resume and retry. Downloads continue when you leave Settings. If you quit the app, downloaded data is kept; choose Download again to resume. If the server does not support resume, downloading restarts safely. Existing valid models are reused across app updates.
 
 ## Prepare an offline computer
 
