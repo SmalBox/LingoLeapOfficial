@@ -14,14 +14,14 @@ For offline sentence translation, download one model once: **[Q8 recommended, 1.
 
 If the in-app download is slow or fails, use a browser or download tool. In Settings → Query & Translation, choose **Install downloaded model file**. LingoLeap verifies and configures it automatically. No Python, Ollama or API key is required for local translation.
 
-## New in v0.45.0: your space, ready when you return
+## New in v0.45.2: desktop pins that feel more natural
 
-- **Stay signed in.** Valid saved cloud sessions restore after updates and restarts. You can turn off automatic login in account settings; signing out stops restoration. Temporary outages keep your cached account details available.
-- **A free welcome gift.** Sign in to receive Cotton Candy and Starlight themes, batch image OCR, screenshot collages and smaller image exports. Theme previews and accent colors work across the main window and quick lookup. Images are processed locally.
-- **A smoother companion.** Yuezai's entrances, detail transitions and interrupted animations feel more natural. Rounded quick-lookup corners stay transparent; capture toolbars can be dragged when you need another position.
-- **Entitlements at a glance.** Compact cards support search, feature/identity filters, pagination and details, including cached results offline. Features requiring online authorization still check before use.
-- **Feedback without another account.** Submit a bug, improvement or feature suggestion in Help & feedback, follow its status and find official community contacts inside the app.
-- **Keep the whole workflow.** Fast capture startup, lossless images, scrolling capture, editable desktop pins, short recordings, multilingual OCR, offline translation and personal learning materials work together.
+- **Pinch to zoom on Mac.** Two-finger scrolling adjusts opacity. Mouse wheel controls stay the same: scroll to zoom, Ctrl/Command + scroll for opacity.
+- **Hints when you need them.** Capture and pin icons show their tooltips faster, with quick switching between controls. Hints do not resize or push the toolbar.
+- **A cleaner pin menu.** Image/menu opacity and smaller image exports are under **More**. Lock/unlock stays in the main toolbar; the opacity panel takes you back to More.
+- **Clear, accurate labels.** Corrected Esc and inherited toolbar hints, added bold/italic descriptions, and kept hints in sync with lock state and your interface language.
+- **Smoother editing.** Drawing, More and opacity panels fit their content, and old hints disappear when you leave, switch images or close the menu.
+- **Keep your familiar tools.** Automatic cloud login, two free themes, batch image OCR, screenshot collages, smaller exports and the offline learning workflow remain available.
 
 Offline dictionary, capture, OCR and installed-model translation remain available without a cloud account. Cloud login does not automatically upload or sync your learning library. Account registration follows the instructions in the app; AI provider usage is separate from the free welcome gift.
 
@@ -31,8 +31,8 @@ Offline dictionary, capture, OCR and installed-model translation remain availabl
 
 | What you need | What to get |
 | --- | --- |
-| First installation on Mac | `LingoLeap-0.45.0-macos-arm64.zip` — Apple Silicon, M-series |
-| First installation on Windows | `LingoLeap-0.45.0-windows-x64.zip` — Windows x64 |
+| First installation on Mac | `LingoLeap-0.45.2-macos-arm64.zip` — Apple Silicon, M-series |
+| First installation on Windows | `LingoLeap-0.45.2-windows-x64.zip` — Windows x64 |
 | Offline sentence translation | Install Q8 or Q6 from Settings after opening the app |
 | A computer that stays offline | Download the app and one model in advance; follow the [offline guide](https://smalbox.github.io/LingoLeapOfficial/#offline) |
 | Updating an existing app | Use Settings → Software updates; download, then Restart and install |
